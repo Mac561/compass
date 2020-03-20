@@ -89,7 +89,7 @@ Group Project - README Template
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-
+<img src="https://media.giphy.com/media/Kc2kJAUbxLtKK2Skrj/giphy.gif" width=600>
 ### [BONUS] Interactive Prototype
 
 ## Schema 

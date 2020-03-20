@@ -1,8 +1,8 @@
-# compass
+
 Group Project - README Template
 ===
 
-# APP_NAME_HERE
+# compass
 
 ## Table of Contents
 1. [Overview](#Overview)

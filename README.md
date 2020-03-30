@@ -52,7 +52,7 @@ Group Project - README Template
 * Detil
     *  User can search for a type of food
     *  User can see order history
-* Profil
+* Profile
 * [list first screen here]
    * [list associated required story here]
    * ...

@@ -112,7 +112,7 @@ List of network requests by screen
     user.signUpInBackgroundWithBlock {
         (succeeded: Bool, error: NSError?) -> Void in
         if error == nil {
-        // Hooray! Let them use the app now.
+        //ayyyy! app is created enjoy.
             } else {
         }
     }

@@ -95,8 +95,35 @@ Group Project - README Template
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
+post
+| Property      | Type          | Description  |
+| ------------- |:-------------:| -----:|
+| object        | String        | uniqued user_id for the post |
+| author        | User          |   Image of user (author)     |
+| review        | number        |    number of review          |
+| orders        | number        |    number of orders          |
+....
 [Add table of models]
 ### Networking
+List of network requests by screen
+* Home Feed screen
+    * (Read/Get) Query all posts where user is author 
+    
+    user.signUpInBackgroundWithBlock {
+        (succeeded: Bool, error: NSError?) -> Void in
+        if error == nil {
+        // Hooray! Let them use the app now.
+            } else {
+        }
+    }
+    * (creat/ Post) creat a new review on a post 
+    * (Delet) review 
+    * (Delet) Cancle order 
+* Create Post Screen 
+    * (Creat / Post ) Create a new post object 
+* Profile Screen 
+    * (Read/Get) Query logged in user object
+    * (Updata/ POST) Updata user profile image 
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]

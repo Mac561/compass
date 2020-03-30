@@ -124,6 +124,3 @@ List of network requests by screen
 * Profile Screen 
     * (Read/Get) Query logged in user object
     * (Updata/ POST) Updata user profile image 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]

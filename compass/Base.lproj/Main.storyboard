@@ -61,6 +61,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compass" translatesAutoresizingMaskIntoConstraints="NO" id="D0t-BX-4Ia">
+                                <rect key="frame" x="29" y="63" width="365" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="USD-Zh-kBN"/>
@@ -116,4 +120,7 @@
             <point key="canvasLocation" x="349" y="-1"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Compass" width="2100" height="1500"/>
+    </resources>
 </document>

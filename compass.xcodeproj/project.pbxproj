@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B3450C5241707C5008D3550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3450C4241707C5008D3550 /* AppDelegate.swift */; };
 		0B3450C7241707C5008D3550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3450C6241707C5008D3550 /* SceneDelegate.swift */; };
-		0B3450C9241707C5008D3550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3450C8241707C5008D3550 /* ViewController.swift */; };
 		0B3450CC241707C5008D3550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3450CA241707C5008D3550 /* Main.storyboard */; };
 		0B3450CE241707CC008D3550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3450CD241707CC008D3550 /* Assets.xcassets */; };
 		0B3450D1241707CC008D3550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3450CF241707CC008D3550 /* LaunchScreen.storyboard */; };
 		0B3450DC241707CD008D3550 /* compassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3450DB241707CD008D3550 /* compassTests.swift */; };
 		0B3450E7241707CD008D3550 /* compassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3450E6241707CD008D3550 /* compassUITests.swift */; };
+		0BF2C846243D6C9E000F3C3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2C845243D6C9E000F3C3F /* LoginViewController.swift */; };
+		0BF2C848243D6CC4000F3C3F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2C847243D6CC4000F3C3F /* FeedViewController.swift */; };
 		47A7A88FF41D11FFF89AAB86 /* Pods_compassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C08DE569349710457C886E2 /* Pods_compassTests.framework */; };
 		6437D96C95A74373067BC1C7 /* Pods_compass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BF623F921FB10B69AC09FE /* Pods_compass.framework */; };
 		FC8E013D7269D6132C7CE168 /* Pods_compass_compassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49D61778723B58AF7A59D6 /* Pods_compass_compassUITests.framework */; };
@@ -41,7 +42,6 @@
 		0B3450C1241707C5008D3550 /* compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3450C4241707C5008D3550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B3450C6241707C5008D3550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B3450C8241707C5008D3550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B3450CB241707C5008D3550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B3450CD241707CC008D3550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3450D0241707CC008D3550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		0B3450E2241707CD008D3550 /* compassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3450E6241707CD008D3550 /* compassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassUITests.swift; sourceTree = "<group>"; };
 		0B3450E8241707CD008D3550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF2C845243D6C9E000F3C3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0BF2C847243D6CC4000F3C3F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0FE44D7343A5353B21DFE6FC /* Pods-compass-compassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compass-compassUITests.release.xcconfig"; path = "Target Support Files/Pods-compass-compassUITests/Pods-compass-compassUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1B3349507DEDAAB490B35431 /* Pods-compass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compass.release.xcconfig"; path = "Target Support Files/Pods-compass/Pods-compass.release.xcconfig"; sourceTree = "<group>"; };
 		1C08DE569349710457C886E2 /* Pods_compassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_compassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,11 +120,12 @@
 			children = (
 				0B3450C4241707C5008D3550 /* AppDelegate.swift */,
 				0B3450C6241707C5008D3550 /* SceneDelegate.swift */,
-				0B3450C8241707C5008D3550 /* ViewController.swift */,
 				0B3450CA241707C5008D3550 /* Main.storyboard */,
 				0B3450CD241707CC008D3550 /* Assets.xcassets */,
 				0B3450CF241707CC008D3550 /* LaunchScreen.storyboard */,
 				0B3450D2241707CC008D3550 /* Info.plist */,
+				0BF2C845243D6C9E000F3C3F /* LoginViewController.swift */,
+				0BF2C847243D6CC4000F3C3F /* FeedViewController.swift */,
 			);
 			path = compass;
 			sourceTree = "<group>";
@@ -155,7 +158,6 @@
 				E07D2A4E63F07DF517C7A058 /* Pods-compassTests.debug.xcconfig */,
 				60F3A224F5BF5BC9281024D9 /* Pods-compassTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,8 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3450C9241707C5008D3550 /* ViewController.swift in Sources */,
+				0BF2C846243D6C9E000F3C3F /* LoginViewController.swift in Sources */,
 				0B3450C5241707C5008D3550 /* AppDelegate.swift in Sources */,
+				0BF2C848243D6CC4000F3C3F /* FeedViewController.swift in Sources */,
 				0B3450C7241707C5008D3550 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

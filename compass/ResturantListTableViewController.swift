@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CDYelpFusion
+import CDYelpFusionKit
 import YelpAPI
 import BrightFutures
 

@@ -1,0 +1,6 @@
+framework module Pods_compass {
+  umbrella header "Pods-compass-umbrella.h"
+
+  export *
+  module * { export * }
+}
